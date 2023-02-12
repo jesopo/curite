@@ -13,7 +13,7 @@ jobs:
           - x86_64-unknown-linux-gnu
     name: build
     runs-on: ubuntu-latest
-    container: debian:10
+    container: rust:buster
     steps:
       - name: Checkout
         uses: actions/checkout@v3
